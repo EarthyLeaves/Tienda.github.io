@@ -1,0 +1,116 @@
+    .container-form
+    { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: helvitica
+     }
+    
+    .container-form{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+     }
+    
+    .container-form h2{
+        margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: black;
+    
+     }
+    
+    .container-form p{
+    font-size: 17px;
+    line-height:1.6;
+    margin-bottom: 30px;
+    color: black;
+     }
+    
+     .container-form a{
+      font-size: 17px;
+      display: inline-block;
+      text-decoration: none;
+      width: 100%;
+      margin-bottom: 15px;
+      color: black;
+      font-weight: 700;
+     }
+     
+     .container-form a i{
+      color: orange;
+      margin-right:10px;
+     }
+    
+     .container-form form .campo, textarea{
+      width: 87%;
+      padding: 15px 10px;
+      font-size: 15px;
+      border:1px solid #dbdbdb;
+      margin-bottom: 20px;
+      border-radius: 3px;
+      outline: 0px;
+     }
+    
+     .container-form form textarea{
+      max-width: 530px;
+      min-width: 530px;
+      min-height: 140px;
+      max-width: 150px;
+     }
+    
+     .container-form .btn-enviar{
+      padding: 20px;
+      font-size: 16px;
+      border:none;
+      outline: 0px;
+      background: rgba(71, 205, 13, 0.704);
+      color:rgb(0, 0, 0);
+      border-radius: 3px;
+      cursor: pointer;
+      transition: all 300ms ease;
+      position: relative; top: 10px; right: 325px
+
+     }
+    
+    .telefonoo{
+    height: 200px;
+    width:200px;
+    }
+
+    .menu{
+        list-style: none;
+        padding: 0px;
+        background: #69e93ec5;
+        width: 200%;
+        max-width: 1535px;
+        margin: 10px 0px 0px -8px;
+        overflow: auto;
+        }
+        
+         .menu li a{
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+        padding: 20px  78.8px;
+          display: block;
+          font-size: 28.5px;
+        
+         }
+        
+         .menu li{
+          display: inline-block;
+          text-align: center;
+        
+         }
+        
+         .menu li a:hover{
+            background: #5de91c;
+         }
+  
+     
+     
+     
