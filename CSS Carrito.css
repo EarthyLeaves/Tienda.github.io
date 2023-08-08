@@ -1,14 +1,14 @@
 .titulo{
     font-family: typo writer; 
-    line-height: 1.5em;
+    line-height: 3em;
    color: #41901A;
    text-align: center;
-   padding: 10px 80px 125px 20px; 
+   padding: 10px 80px 100px 20px; 
    display: inline;
-   margin: 20px 80px 20px 570px;
+   margin: 20px 100px 20px 570px;
    box-sizing: border-box;
    text-shadow: 3px 3px 5px #157a48;
-   font-size: 100px;
+   font-size: 50px;
    text-decoration-color: aquamarine 10px;
    }
 
@@ -23,7 +23,6 @@
 
    .caja {
     justify-content: right;
-    position: right ; 
     margin: 45px;
     width: 500px;
     height:300px ;  
@@ -57,8 +56,8 @@
 
 .form_input{
     width:100%;
-    padding: 7px;
-    margin: 6px 0;
+    padding: 8px;
+    margin: 7px ;
     border: none;
     border-bottom: 3px solid #1c7;
     background: transparent;
@@ -66,7 +65,7 @@
 }
 
 .form_input:focus{
-    background: linear-gradient(to bottom, transparent, #222);
+    background: linear-gradient(to bottom, transparent, #ffffff);
     outline: none;
     border-bottom:3px solid #5f9 ;
 }
@@ -108,18 +107,19 @@
 
 } 
 
-.form_input[type="submit"]{
+.form_input[type="button"]{
 
       background: #094;
       border-bottom: none;
-      padding: 12px;
+      padding: 14px;
 }
 
-.container_caja {
+.form_input[type="button"]:hover{
 
-    position: 500px 500px 0px 0px;
+    background: #072;
+    border-bottom: none;
+    padding: 14px;
 }
 
-   
 
-   
+

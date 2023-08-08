@@ -4,7 +4,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    font-family: helvitica;
+   
      }
     
      .container-titulo{
@@ -13,33 +13,7 @@
         margin-left: -34.213px;
      }
 
-     .menu{
-        list-style: none;
-        padding: -10px;
-        background: #69e93ec5;
-        width: 200%;
-        max-width: 1519.5px;
-        margin: 10px 0px 0px -35px;
-        overflow: auto;
-        }
-        
-         .menu li a{
-          text-decoration: none;
-          color: rgb(0, 0, 0);
-        padding: 20px  89.3px;
-          display: block;
-          font-size: 28.5px;
-         }
-        
-         .menu li{
-          display: inline-block;
-          text-align: center;
-        
-         }
-        
-         .menu li a:hover{
-            background: #5de91c;
-         }
+ 
     
     /* .container{
     width: 100%;
@@ -128,6 +102,8 @@ header{
 
 .container-icon{
     position: relative;
+    padding: -100px; 
+    margin: 0px;
 }
 
 .count-products{
@@ -296,17 +272,18 @@ header{
 
 
 
-/* Cuadro parab que reponda el cliente */
+/* Cuadro para que reponda el cliente */
 
 .container {
     display : flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    background: #292f3c;
+    background: #a8cc65;
     margin: 50px 30px;
     padding: 20px; 
-   
+    border-radius: 10px;
+    width: px;
  }
 
 .form{
@@ -314,7 +291,6 @@ header{
     flex:1;
     text-align: center;
     padding: 30px;
-
 }
    
 
@@ -326,13 +302,14 @@ header{
     border: none;
     border-bottom: 3px solid #1c7;
     background: transparent;
-    color:rgb(255, 255, 255)b5b ;
+    color:rgb(0, 0, 0);
+    ::placeholder {color:blue;}
 }
 
 .form_input:focus{
-    background: linear-gradient(to bottom, transparent, #222);
+    background: linear-gradient(to bottom, transparent, #094);
     outline: none;
-    border-bottom:3px solid #5f9 ;
+    border-bottom:3px solid #5f9;
 }
 
 .form textarea{
@@ -378,7 +355,6 @@ header{
       border-bottom: none;
       padding: 20px;
       font-size: 1.2em;
-     
 }
 
 .form_input[type="button"]:hover{

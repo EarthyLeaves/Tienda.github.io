@@ -39,12 +39,13 @@
 //             // Redirigir a la página de total a pagar
 
         function calcularTotalPagar() {
-             window.location.href = "tarjeta.html";
+            //  window.location.href = "tarjeta.html";
+			window.open("tarjeta.html");
         }
 
-        function regresaratras() {
-           window.location.href = "file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Tienda.html";
-        }
+        // function regresaratras() {
+        //    window.location.href = "file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Tienda.html";
+        // }
 
 // const btnCart = document.querySelector('.container-cart-icon');
 // const containerCartProducts = document.querySelector(
