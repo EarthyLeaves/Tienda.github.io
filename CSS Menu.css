@@ -19,14 +19,25 @@
  align-items: center;
  }
 
- @media (min-width: 900px){
+ @media (max-width: 930px){
    .titulo{
       flex-direction: column;
    }
 
-   nav{
+   /* nav{
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   } */
+
+   /* .fotomed{
+      display: ;
+   } */
+
+   body{
+      max-width: 1080px;
+      max-height: 1920px;
    }
 }
 
@@ -56,11 +67,11 @@
 
  .fotomed{
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    align-items: center;
    justify-content: center;
    border: 7px solid green;
-   margin: -30px 0px -10px 180px;
+   /* margin: -30px 0px -10px 150px; */
    /* padding: 20px; */
  }
 

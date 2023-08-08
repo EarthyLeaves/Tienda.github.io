@@ -7,11 +7,11 @@
    
      }
     
-     .container-titulo{
+     /* .container-titulo{
         background-color: #326a16;
-        width: 1520px;
+        width: 1020px;
         margin-left: -34.213px;
-     }
+     } */
 
  
     
@@ -303,8 +303,9 @@ header{
     border-bottom: 3px solid #1c7;
     background: transparent;
     color:rgb(0, 0, 0);
-    ::placeholder {color:blue;}
 }
+
+.form_input::placeholder {color:rgb(0, 0, 0);}
 
 .form_input:focus{
     background: linear-gradient(to bottom, transparent, #094);
