@@ -3,11 +3,11 @@
   line-height: 1.5em;
  color: #41901A;
  text-align: center;
- padding: 10px 80px 10px 20px; 
+ padding: 10px 0px 10px 0px; 
  display: flex;
  flex-direction: row;
  /* margin: 20px 100px 20px 570px; */
- margin: 15px 0px 0px 0px;
+ margin: 15px -300px 0px 0px;
  box-sizing: border-box;
  text-shadow: 3px 3px 5px #157a48;
  font-size: 50px;
@@ -93,7 +93,7 @@
  color: #41901A;
  font-family: simplicity;
  padding: 20px;
- text-align: left
+ text-align: justify;
 
 }
 
@@ -257,5 +257,6 @@ margin: -5px 8px;
  text-align: justify;
 }
 
-
- 
+/* .menu-vertical{
+   position: inherit;
+} */

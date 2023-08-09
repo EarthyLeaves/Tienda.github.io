@@ -40,7 +40,7 @@
 
         function calcularTotalPagar() {
             //  window.location.href = "tarjeta.html";
-			window.open("tarjeta.html");
+			window.open("file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Tarjeta%20de%20credito/formulario-tarjeta-credito-3d/tarjetaaa.html");
         }
 
         // function regresaratras() {

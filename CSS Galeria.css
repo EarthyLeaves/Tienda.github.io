@@ -1,19 +1,21 @@
+
 h1 {
     color: white;
-    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    /* text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue; */
     text-align: center;
     /* font-family: helvetica; */
 }
 
-     .container-titulo{
-        background-color: #326a16;
-        width: 1020px;
-        margin-left: -34.213px;
-     } 
+.container-titulo{
+    background-color: #326a16;
+    margin: -20px 0px -20px 0px;
+    display: flex;
+    flex-direction: row;
+   }
 
 div.galeria{
     margin: 10px 10px;
-    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgb(64, 105, 70), 0 6px 20px 0 rgba(0,0,0,0.19);
     float: left;
     width:350px;
     /* justify-content: center; */
@@ -25,13 +27,14 @@ div.galeria img{
 }
 
 div.galeria:hover{
-    border: 1px solid lightcoral;
+    border: 1px solid rgb(255, 255, 255);
     transform: matrix3d(100deg);
 }
 div.pie{
     text-align: center;
-    text-shadow: 2px 2px 5px purple;
+    /* text-shadow: 2px 2px 5px purple; */
     padding: 10px;
+    color: white;
 }
 
 .grupo1{
@@ -56,7 +59,7 @@ div.pie{
     margin:15px;
     border-radius: 6px;
     overflow: hidden;
-    background: #36768f;
+    background: #a0e080;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -80,12 +83,13 @@ div.pie{
             }
             
             .card{
+
+            background: #78bd55;
             padding: 10px 0px;
             width: 99%;
             margin:15px;
             border-radius: 6px;
             overflow: hidden;
-            background: #3edfc1;
             box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
             cursor: default;
             transition: all 400ms ease;
@@ -109,14 +113,14 @@ div.pie{
 
 h1 {
     color: white;
-    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    /* text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue; */
     text-align: center;
     /* font-family: helvetica; */
 }
 
 div.galeria2{
     margin: 10px 570px;
-    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0,0,0,0.19);
     float: left;
     width:350px;
     justify-content: center;
@@ -138,7 +142,7 @@ div.galeria2 :hover {
 div.pie{
     display: flex;
     text-align: center;
-    text-shadow: 2px 2px 5px purple;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
     padding: 10px;
     justify-content: center;
     align-items: center;
