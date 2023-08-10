@@ -91,11 +91,11 @@ formulario.inputNombre.addEventListener('keyup', (e) => {
 	firma.textContent = valorInput;
 
 	if(valorInput == ''){
-		nombreTarjeta.textContent = 'Jhon Doe';
+		nombreTarjeta.textContent = 'Earthy Leaves';
 	}
 
 	mostrarFrente();
-});
+})
 
 // * Select mes
 formulario.selectMes.addEventListener('change', (e) => {

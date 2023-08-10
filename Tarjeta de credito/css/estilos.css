@@ -147,6 +147,7 @@ body {
 
 .trasera .datos p {
 	margin-bottom: 5px;
+	color: #000;
 }
 
 .trasera .datos #firma {
@@ -182,12 +183,16 @@ body {
 .trasera .leyenda {
 	font-size: 14px;
 	line-height: 24px;
+	color: #000;
 }
 
 .trasera .link-banco {
 	font-size: 14px;
 	color: #000000;
+
 }
+
+
 
 /* ---------- Contenedor Boton ----------*/
 .contenedor-btn .btn-abrir-formulario {
@@ -289,7 +294,7 @@ body {
 }
 
 .formulario-tarjeta select {
-	-webkit-appearance: none;
+	appearance: none;
 }
 
 .formulario-tarjeta .grupo-select i {

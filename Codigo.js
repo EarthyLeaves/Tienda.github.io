@@ -38,7 +38,7 @@
 //             totalPagar = carrito.reduce((total, subtotal) => total + subtotal, 0);
 //             // Redirigir a la página de total a pagar
 
-                function calcularTotalPagar() {
+        function calcularTotalPagar() {
             //  window.location.href = "tarjeta.html";
 			window.open("https://earthyleaves.github.io/Agradecimiento/");
         }
@@ -49,7 +49,7 @@
         }
 
 		function Inicio(){
-			window.open("https://earthyleaves.github.io/Inicio.github.io/");
+			window.open("file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Earthy%20Leaves.html");
 		}
         // function regresaratras() {
         //    window.location.href = "file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Tienda.html";
