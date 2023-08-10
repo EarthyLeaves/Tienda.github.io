@@ -48,6 +48,9 @@
 			window.open("file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Tarjeta%20de%20credito/formulario-tarjeta-credito-3d-master/index.html");
         }
 
+		function Inicio(){
+			window.open("file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Earthy%20Leaves.html");
+		}
         // function regresaratras() {
         //    window.location.href = "file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Tienda.html";
         // }
