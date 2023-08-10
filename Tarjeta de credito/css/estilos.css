@@ -5,50 +5,11 @@
 }
 
 body {
-	background-image: url("https://img.freepik.com/vector-premium/fondo-textura-papel-arrugado-realista_389675-162.jpg?w=2000");
+	background: #ddeefc;
 	font-family: 'Lato', sans-serif;
 }
 
-.contenedor {
-	width: 90%;
-	max-width: 1000px;
-	padding: 40px 20px;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.section {
-	margin-top: 1px;
-  margin-bottom: 40px;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
- }
-
- .container-gracias{
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px;
-	margin-top: 130px;
- }
- 
- .container-gracias .btn-gra{
-	margin-left: 270px;
-	margin-top: 35px;
-	padding: 20px;
-	font-size: 16px;
-	border: none;
-	outline: 0;
-	background: rgba(71, 205, 13, 0.704);
-	color: rgb(0, 0, 0);
-	border-radius: 3px;
-	cursor: pointer;
-	transition: all 300ms ease;
- }
-
- .titulo{
+.titulo{
 	font-family: typo writer; 
 	line-height: 1.5em;
    color: #41901A;
@@ -68,6 +29,23 @@ body {
    justify-content: center;
    align-items: center;
    }
+
+.container-titulo{
+	background-color: #326a16;
+	margin: -20px 0px -20px 0px;
+	display: flex;
+	flex-direction: row;
+   }
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	padding: 40px 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 /* ---------- Estilos Generales de las Tarjetas ----------*/
 .tarjeta {
@@ -100,7 +78,7 @@ body {
 
 .tarjeta .delantera {
 	width: 100%;
-	background: url(../img/bg-tarjeta/bg-tarjeta-01.jpg);
+	background: url(../img/bg-tarjeta/bg-tarjeta-05.jpg);
 	background-size: cover;
 }
 
@@ -124,14 +102,14 @@ body {
 
 .delantera .grupo .label {
 	font-size: 16px;
-	color: #7d8994;
+	color: #000000;
 	margin-bottom: 5px;
 }
 
 .delantera .grupo .numero,
 .delantera .grupo .nombre,
 .delantera .grupo .expiracion {
-	color: #fff;
+	color: #000000;
 	font-size: 22px;
 	text-transform: uppercase;
 }
@@ -144,7 +122,7 @@ body {
 
 /* ---------- Tarjeta Trasera ----------*/
 .trasera {
-	background: url(../img/bg-tarjeta/bg-tarjeta-02.jpg);
+	background: url(../img/bg-tarjeta/bg-tarjeta-05.jpg);
 	background-size: cover;
 	position: absolute;
 	top: 0;
@@ -208,7 +186,7 @@ body {
 
 .trasera .link-banco {
 	font-size: 14px;
-	color: #fff;
+	color: #000000;
 }
 
 /* ---------- Contenedor Boton ----------*/

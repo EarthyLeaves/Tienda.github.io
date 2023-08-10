@@ -45,7 +45,7 @@
 
 		function calcularTotalPagartarjeta() {
             //  window.location.href = "tarjeta.html";
-			window.open("file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Tarjeta%20de%20credito/formulario-tarjeta-credito-3d-master/index.html");
+			window.open("file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Tarjeta%20de%20credito/index.html");
         }
 
 		function Inicio(){
