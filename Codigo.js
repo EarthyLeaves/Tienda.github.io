@@ -1,3 +1,4 @@
+
 //             // Redirigir a la página de total a pagar
 
         function calcularTotalPagar() {
@@ -11,15 +12,15 @@
         }
 
 		function Inicio(){
-			window.open("https://earthyleaves.github.io/Inicio.github.io/");
+			window.open("file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Earthy%20Leaves.html");
 		}
-
+        // function regresaratras() {
+        //    window.location.href = "file:///C:/Users/salis/OneDrive/Documentos/Earthy%20Leaves/Tienda.html";
+        // }
 
 
 const btnCart = document.querySelector('.container-cart-icon');
-const containerCartProducts = document.querySelector(
-	'.container-cart-products'
-);
+const containerCartProducts = document.querySelector('.container-cart-products');
 
 btnCart.addEventListener('click', () => {
 	containerCartProducts.classList.toggle('hidden-cart');
