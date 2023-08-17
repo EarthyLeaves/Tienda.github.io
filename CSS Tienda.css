@@ -1,11 +1,4 @@
-    body{
-    background-color: #DAF7A6;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-   
-     }
+
 
      .container-titulo{
         background-color: #326a16;
@@ -249,7 +242,7 @@ header{
     margin: 40px -40px;
     padding: 20px; 
     border-radius: 10px;
-    width: px;
+    width: 500px;
  }
 
 .form{
@@ -300,9 +293,8 @@ header{
 
 .img_container div{
     border-radius: 0%;
-    background-color: rgb(97, 121, 143);
     text-align: center;
-    padding: 40px 10px;  
+    padding: 40px 60px;  
 }
 
 .img_container{
@@ -311,7 +303,7 @@ header{
 }
 
 .form_img img {
-    width: 40%;
+    width: 80%;
     margin: auto;
 
 } 
